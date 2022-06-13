@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="design.css" type="text/css" rel="stylesheet"/>
+    <title>PUP Interactive Map</title>
+	<script src="jscript.js"></script>
+</head>
+<body id="body">
+	<main>
+		<img id="pupmap" src="images/main.gif" usemap="#map">
+		<map name="map">
+			<!--Ninoy Aquino Library and Learning Resources Center-->
+			<area shape="poly" 
+				coords="336,104,308,25,348,12,375,85,442,63,457,103,388,127,415,202,375,214"
+				href="#" onmouseover="showModal('images/pupaquino.jpg', 'Ninoy Aquino Library and Learning Resources Center', 'Lib')" onmouseout="closeModal()" alt="NALLRC" id="library">
+			<!--PUP Swimming Pool-->
+			<area shape="rect" 
+				coords="536,40, 631,91"
+				href="#" onmouseover="showModal('images/puppool.jpg', 'PUP Swimming Pool', 'Pool')" onmouseout="closeModal()" alt="puppool" id="pool">
+			<!--PUP Gymnaisum and Sports Center-->
+			<area shape="rect" 
+				coords="652,101, 777,34"
+				href="#" onmouseover="showModal('images/pupgym.jpg', 'PUP Gymnaisum and Sports Center', 'Gym')" onmouseout="closeModal()" alt="pupgym" id="gym">
+			<!--PUP Chapel-->
+			<area shape="circle" 
+				coords="502,475, 64"
+				href="#" onmouseover="showModal('images/pupchapel.jpg', 'PUP Chapel', 'Chapel')" onmouseout="closeModal()" alt="pupchapel" id="chapel">
+			<!--PUP Obelisk-->
+			<area shape="circle" 
+				coords="556,218, 20"
+				href="#" onmouseover="showModal('images/pupcenter.jpg', 'PUP Obelisk', 'Obelisk')" onmouseout="closeModal()" alt="pupobelisk" id="obelisk">
+			<!--PUP Outdoor Courts-->
+			<area shape="rect" 
+				coords="586,178, 678,125"
+				href="#" onmouseover="showModal('images/pupbasketball.jpg', 'PUP Outdoor Courts', 'Bball/Vball Courts')" onmouseout="closeModal()" alt="pupcourts" id="courts">
+			<!--PUP Tennis Court-->
+			<area shape="rect" 
+				coords="676,200, 772,129"
+				href="#" onmouseover="showModal('images/puptennis.jpg', 'PUP Tennis Court', 'Tennis Court')" onmouseout="closeModal()" alt="puptennis" id="tennis">
+			<!--PUP Oval-->
+			<area shape="poly" 
+				coords="823,281,802,270,783,267,768,267,757,267,741,272,729,279,713,291,704,307,611,431,602,452,602,465,601,484,605,494,606,508,613,524,621,535,632,543,641,552,653,560,665,563,685,567,698,566,713,563,731,557,749,546,766,527,783,503,802,478,856,399,870,374,869,344,863,327,855,309,841,291"
+				href="#" onmouseover="showModal('images/pupoval.jpg', 'PUP Oval', 'Oval')" onmouseout="closeModal()" alt="pupoval" id="oval">
+			<!--PUP Lagoon-->
+			<area shape="poly" 
+				coords="435,143,425,147,419,153,418,162,416,171,417,179,418,188,417,196,417,203,412,210,400,213,391,213,382,216,376,221,370,231,369,241,369,252,371,259,370,267,360,269,349,272,344,279,344,284,345,290,351,292,357,289,364,286,370,285,378,286,387,284,393,280,400,277,408,273,418,267,428,254,435,243,440,229,443,219,444,210,450,203,457,200,463,193,468,181,470,171,468,159,450,143"
+				href="#" onmouseover="showModal('images/puplagoon.jpg', 'PUP Lagoon', 'Lagoon')" onmouseout="closeModal()" alt="puplagoon" id="lagoon">
+			<!--Nutrition and Food Science Building-->
+			<area shape="rect" 
+				coords="418,552, 564,574"
+				href="#" onmouseover="showModal('images/nutrition_bldg.jpg', 'Nutrition and Food Science Building', 'Food Science')" onmouseout="closeModal()" alt="pupnutri" id="nutrition">
+			<!--Amphitheater-->
+			<area shape="poly" 
+				coords="374,290,389,291,396,301,395,307,405,321,393,327,380,325,371,322,361,315,354,307,351,296"
+				href="#" onmouseover="showModal('images/pupamphi.jpg', 'Amphitheater', 'Theater')" onmouseout="closeModal()" alt="pupamphi" id="amphi">
+			<!--PUP Main Gate-->
+			<area shape="rect" 
+				coords="831,223, 877,230"
+				href="#" onmouseover="showModal('images/pupgate.jpg', 'PUP Main Gate', 'Entrance')" onmouseout="closeModal()" alt="pupentrance" id="entrance">
+			<!--PUP Exit-->
+			<area shape="rect" 
+				coords="828,260, 878,231"
+				href="#" onmouseover="showModal('images/pupexit.jpg', 'PUP Exit Gate', 'Exit')" onmouseout="closeModal()" alt="pupexit" id="exit">
+			<!--PUP Tahanan ng Alumni-->
+			<area shape="rect" 
+				coords="509,80, 528,39"
+				href="#" onmouseover="showModal('images/pupalumni.jpg', 'PUP Tahanan ng Alumni', 'Alumnis')" onmouseout="closeModal()" alt="pupalumni" id="alumni">
+			<!--PUP PE Building-->
+			<area shape="rect" 
+				coords="476,138, 509,11"
+				href="#" onmouseover="showModal('images/puppe.jpg', 'PUP Physical Education Building', 'PE')" onmouseout="closeModal()" alt="puppe" id="pe">
+			<!--PUP West Wing-->
+			<area shape="poly" 
+				coords="339,414,371,364,275,310,271,319,262,315,245,342,254,349,245,359"
+				href="#" onmouseover="showModal('images/pupwest.jpg', 'PUP West Wing', 'West Wing')" onmouseout="closeModal()" alt="pupwest" id="west">
+			<!--PUP North Wing-->
+			<area shape="poly" 
+				coords="393,365,424,415,516,362,510,350,518,344,497,306,488,310"
+				href="#" onmouseover="showModal('images/pupnorth.jpg', 'PUP North Wing', 'North Wing')" onmouseout="closeModal()" alt="pupnorth" id="north">
+			<!--PUP East Wing-->
+			<area shape="poly" 
+				coords="353,436,413,436,413,545,404,543,402,555,366,554,366,543,352,545"
+				href="#" onmouseover="showModal('images/pupeast.jpg', 'PUP East Wing', 'East Wing')" onmouseout="closeModal()" alt="pupeast" id="east">
+			<!--PUP South Wing-->
+			<area shape="poly" 
+				coords="259,468,298,534,349,502,320,452,351,436,338,419,310,433,289,396,275,385,231,412"
+				href="#" onmouseover="showModal('images/pupsouth.jpg', 'PUP South Wing', 'South Wing')" onmouseout="closeModal()" alt="pupsouth" id="south">
+			<!--PUP Main Building-->
+			<area shape="poly" 
+				coords="343,416,351,432,411,431,422,418,390,367,371,367"
+				href="#" onmouseover="showModal('images/pupmain.jpg', 'PUP Main Building', 'Main Building')" onmouseout="closeModal()" alt="pupmain" id="main">
+			<!--Charlie del Rosario Hall-->
+			<area shape="poly" 
+				coords="162,196,181,160,287,220,267,255"
+				href="#" onmouseover="showModal('images/pupcdrbldg.jpg', 'Charlie del Rosario Hall', 'del Rosario hall')" onmouseout="closeModal()" alt="pupcdr" id="cdr">
+			<!--PUP Laboratory Highschool1-->
+			<area shape="poly" 
+				coords="170,28,245,73,253,58,180,14"
+				href="#" onmouseover="showModal('images/puplab.jpg', 'PUP Laboratory Highschool', 'Lab')" onmouseout="closeModal()" alt="puplab1" id="lab1">
+			<!--PUP Laboratory Highschool2-->
+			<area shape="poly" 
+				coords="163,41,152,54,240,106,248,89"
+				href="#" onmouseover="showModal('images/puplab.jpg', 'PUP Laboratory Highschool', 'Lab')" onmouseout="closeModal()" alt="puplab2" id="lab2">
+			<!--PUP Laboratory Highschool3-->
+			<area shape="poly" 
+				coords="148,68,140,82,267,155,275,141"
+				href="#" onmouseover="showModal('images/puplab.jpg', 'PUP Laboratory Highschool', 'Lab')" onmouseout="closeModal()" alt="puplab3" id="lab3">
+			<!--PUP Laboratory Highschool4-->
+			<area shape="poly" 
+				coords="150,114,142,126,280,208,290,194"
+				href="#" onmouseover="showModal('images/puplab.jpg', 'PUP Laboratory Highschool', 'Lab')" onmouseout="closeModal()" alt="puplab4" id="lab4">
+			<!--PUP Property Building-->
+			<area shape="poly" 
+				coords="122,25,125,15,137,15,139,2,127,3,83,1,83,15,96,15,99,24"
+				href="#" onmouseover="showModal('images/puplab.jpg', 'PUP Property Building', 'Prop Bldg')" onmouseout="closeModal()" alt="pupprop" id="prop">
+			<!--PUP Printing Press Building-->
+			<area shape="poly" 
+				coords="81,47,95,40,115,70,102,77"
+				href="#" onmouseover="showModal('images/puplab.jpg', 'PUP Printing Press Building', 'Print')" onmouseout="closeModal()" alt="pupprint" id="print">
+			<!--PUP Water Pump Facility-->
+			<area shape="poly" 
+				coords="279,23,305,23,304,5,294,6,294,12,278,13"
+				href="#" onmouseover="showModal('images/puplab.jpg', 'PUP Water Pump Facility', 'Pump')" onmouseout="closeModal()" alt="puppump" id="pump">
+			<!--PUP R.C. Underground Water Tank-->
+			<area shape="poly" 
+				coords="284,29,297,26,290,35,300,31"
+				href="#" onmouseover="showModal('images/puplab.jpg', 'PUP R.C. Underground Water Tank', 'Underwater')" onmouseout="closeModal()" alt="pupUwater" id="uwater">
+			<!--PUP R.C. Overhead Water Tank-->
+			<area shape="poly" 
+				coords="283,63,291,55,304,55,311,60,312,72,305,82,294,80,285,76"
+				href="#" onmouseover="showModal('images/pupufo.jpg', 'PUP R.C. Overhead Water Tank', 'Overwater')" onmouseout="closeModal()" alt="pupOwater" id="owater">
+			<!--PUP Student Canteen-->
+			<area shape="poly" 
+				coords="219,267,231,248,258,261,247,283"
+				href="#" onmouseover="showModal('images/puplab.jpg', 'PUP Student Canteen', 'Student Canteen')" onmouseout="closeModal()" alt="pupScanteen" id="scanteen">
+			<!--PUP University Canteen Sampaguita Building-->
+			<area shape="poly" 
+				coords="192,292,204,267,249,292,236,317,210,303,203,309,193,304"
+				href="#" onmouseover="showModal('images/puplab.jpg', 'PUP University Canteen Sampaguita Building', 'Univ Canteen')" onmouseout="closeModal()" alt="pupUcanteen" id="ucanteen">
+			<!--PUP Linear Park-->
+			<area shape="poly" 
+				coords="202,372,188,380,161,294,174,296"
+				href="#" onmouseover="showModal('images/puplab.jpg', 'PUP Linear Park', 'Linear Park')" onmouseout="closeModal()" alt="pupLpark" id="lpark">
+			<!--Pasig River-->
+			<area shape="poly" 
+				coords="256,573,208,442,162,304,129,203,95,87,39,1,4,3,2,574"
+				href="#" onmouseover="showModal('images/puplab.jpg', 'Pasig River', 'Pasig River')" onmouseout="closeModal()" alt="puppasig" id="pasig">
+			<!--PUP Generator Facility-->
+			<area shape="poly" 
+				coords="252,522,259,521,263,529,256,530"
+				href="#" onmouseover="showModal('images/puplab.jpg', 'PUP Generator Facility', 'Facility')" onmouseout="closeModal()" alt="pupgen" id="gen">
+			<!--PUP Sta. Mesa Ferry Station-->
+			<area shape="poly" 
+				coords="253,549,260,547,257,540,270,537,280,563,269,567,265,563,259,564"
+				href="#" onmouseover="showModal('images/puplab.jpg', 'PUP Sta. Mesa Ferry Station', 'Station')" onmouseout="closeModal()" alt="pupferry" id="ferry">
+			<!--PUP Campus Development and Maintenance Building-->
+			<area shape="rect" 
+				coords="329,564,382,575"
+				href="#" onmouseover="showModal('images/puplab.jpg', 'PUP Campus Development and Maintenance Building', 'Maintenance')" onmouseout="closeModal()" alt="pupdev" id="dev">
+			<!--PUP Community Building-->
+			<area shape="poly" 
+				coords="806,487,819,496,844,460,833,450"
+				href="#" onmouseover="showModal('images/puplab.jpg', 'PUP Community Building', 'Community Building')" onmouseout="closeModal()" alt="pupcom" id="com">
+			<!--PUP Grandstand-->
+			<area shape="poly" 
+				coords="623,371,632,381,661,353,676,322,662,314,650,335,641,335,634,346"
+				href="#" onmouseover="showModal('images/pupquadrangle.jpg', 'PUP Grandstand', 'Lab')" onmouseout="closeModal()" alt="pupgrand" id="grand">
+			<!--PUP Apolinario Mabini Shrine-->
+			<area shape="poly" 
+				coords="600,253,586,264,561,324,600,347,643,285"
+				href="#" onmouseover="showModal('images/puplab.jpg', 'PUP Apolinario Mabini Shrine', 'Shrine')" onmouseout="closeModal()" alt="pupshrine" id="shrine">
+			<!--PUP Freedom Park-->
+			<area shape="poly" 
+				coords="494,299,533,366,557,331,568,299,581,270,578,261,556,264,535,259"
+				href="#" onmouseover="showModal('images/puplab.jpg', 'PUP Freedom Park', 'Freedom Park')" onmouseout="closeModal()" alt="pupFpark" id="fpark">
+			<!--PUP Gazebo-->
+			<area shape="rect" 
+				coords="648,250,663,256"
+				href="#" onmouseover="showModal('images/puplab.jpg', 'PUP Gazebo', 'Gazebo')" onmouseout="closeModal()" alt="pupgazebo" id="gazebo">
+			<!--PUP Visitor Information Center-->
+			<area shape="rect" 
+				coords="797,184,826,211"
+				href="#" onmouseover="showModal('images/puplab.jpg', 'PUP Visitor Information Center', 'Visitor Info')" onmouseout="closeModal()" alt="pupinfo" id="info">
+			<!--PUP Pylon-->
+			<area shape="rect" 
+				coords="844,197,865,220"
+				href="#" onmouseover="showModal('images/pupthreepillar.jpg', 'PUP Pylon', 'Pylon')" onmouseout="closeModal()" alt="puppylon" id="pylon">
+
+		</map>
+	</main>
+	<span id="modal"></span>
+</body>
+</html>
