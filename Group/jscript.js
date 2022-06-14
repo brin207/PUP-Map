@@ -3,7 +3,7 @@ function showModal(imgsrc, name, description){
 	modal.style.display = "block";
 	modal.style.left = event.clientX + "px";
 	modal.style.top = event.clientY + "px";
-	modal.innerHTML = "<div id='container'><img id='pic' src='"+imgsrc+"'/><p>"+name+"</p><p>"+description+"</p></div>";
+	modal.innerHTML = "<div id='container'><img id='pic' src='"+imgsrc+"'/><p id='title'>"+name+"</p><p>"+description+"</p></div>";
 	}
 function closeModal(){
 	let modall = document.getElementById("modal");

@@ -1,24 +1,27 @@
-main{
-	margin:20px;
-	text-align:center;
-}
+
 body{
 	overflow:scroll;
+	text-align:center;
+	background-color:#5e0b13;
 }
 #pupmap{
 	height:575px;
 	width:960px;
+	border: 5px solid black;
 }
 #modal{
 	display:none;
 	position:absolute;
-	height:250px;
-	width:200px;
-	background-color:#E1C16E;
+	min-height:250px;
+	min-width:200px;
+	max-height:400px;
+	max-width:250px;
+	background-color:#d7a42c;
 	overflow:hidden;
 	text-align:center;
 	border-style: solid;
 	border-radius: 15px 50px;
+	padding:10px;
 }
 #container{
 	margin-top: 20px;
@@ -27,6 +30,13 @@ body{
 	padding:2%;
 }
 #pic{
-	height:70px;
+	height:80px;
 	width:100px;
+	border: 5px solid black;
+	padding:3px;
 }
+#header{
+	width:960px;
+	border: 6px solid black;
+}
+
